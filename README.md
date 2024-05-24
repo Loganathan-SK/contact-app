@@ -1,20 +1,20 @@
 # Contact Management App with Charts and Maps
-This is a contact management app built using ReactJS, JavaScript, TailwindCSS, React Router v6, and Redux. 
-The app includes a dashboard with charts and maps that display COVID-19 data for different countries.
+This is acontact management app with Charts and Maps using ReactJS, TypeScript, TailwindCSS, React Router v6 and React Query aka TanstackQuery.
 
 # Deployed Link : - 
 https://contact-management-app-teal.vercel.app/
 
-# Pages and Functionality
-The app has two main pages:
 
 # Contacts
-This page allows you to manage your contacts. You can add a new contact by filling out the form, and the contact will be added to the list. You can also edit or delete an existing contact. Clicking on a contact's name will take you to the contact details page.
+This app contains a form for adding new contacts and display a list of all added contacts
+Each contact will have a button to view the contacts details. It is able to edit and delete contacts
+It makes use of Redux to store the contact data
 
 # Charts and Maps
-This page displays COVID-19 data for different countries. It includes a line graph showing the cases fluctuations over 
-time and a map with markers that indicate the country name, total number of active, 
-recovered cases, and deaths in that particular country as a popup.
+- A line graph showing the cases fluctuations
+- A react leaflet map with markers that indicates the country name, total number
+of active, recovered cases and deaths in that particular country as a popup.
+
 
 # APIs Used
 The app uses the following APIs to fetch data:
@@ -23,15 +23,13 @@ The app uses the following APIs to fetch data:
 - Country Specific data of cases: https://disease.sh/v3/covid-19/countries
 - Graph data for cases with date: https://disease.sh/v3/covid-19/historical/all?lastdays=all
 
-#Technologies Used
-The following technologies were used to build this app:
-
-- ReactJS
-- JavaScript
-- TailwindCSS
-- React Router v6
-- React Query
-- Redux
+**#Web Technologies**
+* ReactJS
+* JavaScript
+* TailwindCSS
+* React Router v6
+* React Query
+* Redux
 # Installation and Setup
 To run this app, follow these steps:
 
