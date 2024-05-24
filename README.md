@@ -2,7 +2,7 @@
 This is acontact management app with Charts and Maps using ReactJS, TypeScript, TailwindCSS, React Router v6 and React Query aka TanstackQuery.
 
 # Deployed Link : - 
-https://contact-management-app-teal.vercel.app/
+https://loganathan-sk.github.io/contact-app/
 
 
 # Contacts
